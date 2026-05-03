@@ -1,0 +1,45 @@
+<svg width="520" height="260" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 260">
+  <!-- Latar belakang -->
+  <rect width="100%" height="100%" rx="25" fill="#0d1117" stroke="#58a6ff" stroke-width="4"/>
+  
+  <!-- Karakter kucing lucu loncat-loncat 🐱 -->
+  <g>
+    <!-- Kepala -->
+    <circle cx="70" cy="100" r="28" fill="#ffb86c">
+      <animate attributeName="cy" values="100;85;100;115;100" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Telinga -->
+    <polygon points="50,78 62,62 74,78" fill="#ffb86c"/>
+    <polygon points="76,78 88,62 100,78" fill="#ffb86c"/>
+    <!-- Mata berkelap-kelip -->
+    <circle cx="62" cy="92" r="5" fill="black">
+      <animate attributeName="r" values="5;1;5" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="78" cy="92" r="5" fill="black">
+      <animate attributeName="r" values="5;1;5" dur="3s" repeatCount="indefinite" begin="0.2s"/>
+    </circle>
+    <!-- Mulut senyum -->
+    <path d="M 60 108 Q 70 115 80 108" stroke="black" stroke-width="2.5" fill="none"/>
+  </g>
+
+  <!-- Judul berwarna-warni -->
+  <text x="130" y="75" font-size="26" font-weight="bold" font-family="sans-serif">
+    ✨ DATA AKUN SAYA ✨
+    <animate attributeName="fill" values="#50fa7b;#ff79c6;#f1fa8c;#bd93f9;#50fa7b" dur="2.2s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- ISI DATA KAMU, UBAH ANGKA SESUAI AKUNMU YA -->
+  <g font-family="sans-serif" font-size="19" fill="white">
+    <text x="130" y="115">👤 Username  : isekarwangi</text>
+    <text x="130" y="145">📂 Repo Publik : 8</text>
+    <text x="130" y="175">⭐ Total Bintang : 12</text>
+    <text x="130" y="205">👥 Follower : 15</text>
+    <text x="130" y="235">💻 Utama : HTML/CSS/JS</text>
+  </g>
+
+  <!-- Ikon berputar lucu -->
+  <path d="M450 130 L460 110 L470 130 L460 150 Z" fill="#ff5555">
+    <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 460 130" to="360 460 130" dur="4s" repeatCount="indefinite"/>
+  </path>
+</svg>
+tambah stats animasi
