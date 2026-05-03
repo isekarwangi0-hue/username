@@ -1,0 +1,14 @@
+<svg width="300" height="120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Teks berkedip -->
+  <text x="20" y="70" font-size="30" fill="#2ea043" font-weight="bold">
+    Halo GitHub!
+    <animate attributeName="fill" 
+             values="#2ea043;#f06595;#ffd43b;#2ea043" 
+             dur="2s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Lingkaran bergerak -->
+  <circle cx="30" cy="90" r="12" fill="#58a6ff">
+    <animate attributeName="cx" from="30" to="270" dur="3s" repeatCount="indefinite"/>
+  </circle>
+</svg>
